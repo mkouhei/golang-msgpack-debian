@@ -27,4 +27,4 @@ override_dh_auto_clean:
 
 # change enable firstly recursive dependency with golang-ugorji-codec-dev.
 # and append it to Build-Depends.
-override_dh_auto_test:
+#override_dh_auto_test:
