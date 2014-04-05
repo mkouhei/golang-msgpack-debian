@@ -25,5 +25,6 @@ override_dh_auto_clean:
 	rm -rf ${CURDIR}/_build
 	rm -rf ${CURDIR}/obj-${BLDPATH}
 
-# change enable firstly recursive dependency with golang-codec-dev.
-#override_dh_auto_test:
+# change enable firstly recursive dependency with golang-ugorji-codec-dev.
+# and append it to Build-Depends.
+override_dh_auto_test:
