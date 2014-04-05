@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 9.0.0),
 	golang-gocheck-dev,
 	golang-vmihailenco-bufio-dev,
 	golang-ugorji-go-msgpack-dev,
-	golang-ugorji-codec-dev
+	golang-ugorji-go-dev
 Standards-Version: 3.9.5
 Section: devel
 Homepage: https://github.com/vmihailenco/msgpack
